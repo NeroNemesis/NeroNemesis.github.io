@@ -11,7 +11,7 @@ const Home = () =>
     return(
         <div className="Home">
             <div className="d-flex pContainer">
-            <Projects projects={projects}/>
+                <Projects projects={projects}/>
             </div>
         </div>
     );
