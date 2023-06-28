@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Project from './Project'
+import Projects from './ProjectsList'
 
 const Home = () =>
 {
@@ -11,7 +11,7 @@ const Home = () =>
     return(
         <div className="Home">
             <div className="d-flex pContainer">
-            <Project projects={projects}/>
+            <Projects projects={projects}/>
             </div>
         </div>
     );

@@ -13,10 +13,10 @@ const project = (props) => {
                     <p className="card-text">{project.description}</p>
                     <div className="row align-items-center">
                         <div className="col d-flex justify-content-center">
-                            <a href={project.viewLink} className="btn pBtn">View <FontAwesomeIcon icon="fa-solid fa-eye" /></a>
+                            <a href={project.viewLink} target='_blank' className="btn pBtn">View <FontAwesomeIcon icon="fa-solid fa-eye" /></a>
                         </div>
                         <div className="col d-flex justify-content-center">
-                            <a href={project.repoLink} className="btn pBtn">Github <FontAwesomeIcon icon="fa-solid fa-up-right-from-square" /></a>
+                            <a href={project.repoLink} target='_blank' className="btn pBtn">Github <FontAwesomeIcon icon="fa-solid fa-up-right-from-square" /></a>
                         </div>
                     </div>
                 </div>
